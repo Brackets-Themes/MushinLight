@@ -1,0 +1,97 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #000000; }
+span.cm-def			{ color: #000000; }
+span.cm-header      { color: #000000; }
+span.cm-qualifier	{ color: #000000; }
+
+span.cm-atom		{ color: #82828d; }
+span.cm-bracket		{ color: #82828d; }
+span.cm-link		{ color: #82828d; border-bottom: 1px dotted #3d3d3d; }
+span.cm-meta		{ color: #82828d; }
+span.cm-number		{ color: #82828d; }
+span.cm-operator	{ color: #82828d; }
+span.cm-string		{ color: #82828d; border-bottom: 1px dotted #3d3d3d; }
+span.cm-string-2    { color: #82828d; border-bottom: 1px dotted #3d3d3d; }
+span.cm-tag			{ color: #82828d; }
+
+span.cm-attribute	{ color: #4b4a50; }
+span.cm-keyword		{ color: #4b4a50; font-weight: 700; }
+span.cm-property	{ color: #4b4a50; } /* property after string */
+span.cm-variable	{ color: #4b4a50; }
+span.cm-variable-2	{ color: #4b4a50; }
+span.cm-variable-3	{ color: #4b4a50; }
+
+span.cm-comment		{ color: #ababab; font-style: italic; }
+span.cm-error		{ color: #ed325b; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+    line-height: 1.5;
+}
+
+.CodeMirror-scroll {
+    background: #fff;
+	color: #4b4a50;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #000 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #000 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #fff;
+}
+
+.CodeMirror-linenumber {
+	color: #cdcdcd;
+}
+
+.CodeMirror-selected {}
+
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ed325b !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #ebf4f8 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #000;
+	background-color: transparent !important;
+}
+
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: #d6d6d6 !important;
+    color: #2d2d2d !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #efefef !important;
+}
+
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #fff;
+}
+
+#image-holder {
+    color: #4b4a50;
+}
